@@ -30,7 +30,7 @@ var showCurrentTime = function()
 	  }
  
     // Set Minutes
-    if (minutes < 9)
+    if (minutes < 8)
     {
         minutes = "0" + minutes;
     }
@@ -95,6 +95,9 @@ var updateClock = function()
 
   console.log(messageText); 
   timeEventJS.innerText = messageText;
+  timeEventJS.innerText = messageText;
+  timeEventJS.innerText = messageText;
+  timeEventJS.innerText = messageText;
   lolcatImage.src = image;
   
   showCurrentTime();
@@ -103,6 +106,13 @@ updateClock();
 
 // Getting the clock to increment once a second
 var oneSecond = 1000;
+setInterval( updateClock, oneSecond);
+setInterval( updateClock, oneSecond);
+setInterval( updateClock, oneSecond);setInterval( updateClock, oneSecond);
+setInterval( updateClock, oneSecond);
+setInterval( updateClock, oneSecond);
+setInterval( updateClock, oneSecond);
+setInterval( updateClock, oneSecond);
 setInterval( updateClock, oneSecond);
 
 

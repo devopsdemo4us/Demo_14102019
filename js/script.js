@@ -30,7 +30,7 @@ var showCurrentTime = function()
 	  }
  
     // Set Minutes
-    if (minutes < 9)
+    if (minutes < 8)
     {
         minutes = "0" + minutes;
     }
